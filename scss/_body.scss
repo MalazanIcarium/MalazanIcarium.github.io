@@ -1,0 +1,130 @@
+@import './variables';
+@import './mixins';
+
+body {
+    header {
+        @media (max-width: 990px) {
+            width: 0 auto;
+            min-width: 250px;
+            max-width: 400px;
+        }
+        
+        nav{
+            .navbar {
+                position: fixed;
+                z-index: 5;
+                transition: all 0.3s ease;
+                margin-right: 0px;
+                .content {
+                    min-width: 250px;  
+                    max-width: 1250px;
+                    margin: auto;
+                    padding: 0px 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+            }
+        }
+
+    }
+    main {
+        margin-top: 70px;
+        margin: 0 auto;
+        #carouselExampleControls {
+            width: 300px;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        .txt-index{
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+           
+            #exchange{
+                margin: 0 auto;
+            }
+        }
+        div{
+            div{
+                .curso1 {
+                    opacity: 0.7;
+                    font-size: larger;
+                    min-width: 300px;
+                    margin-top: 20px;
+                    &:hover {
+                        opacity: 1;
+                        background-color: aliceblue;
+                        cursor: pointer;
+                        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+                        transform: translateY(6%);
+                    }
+                    
+                    #trading{
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                }
+                .curso2 {
+                    opacity: 0.7;
+                    font-size: larger;
+                    min-width: 300px;
+                    margin-top: 20px;
+                    &:hover{
+                        opacity: 1;
+                        background-color: aliceblue;
+                        cursor: pointer;
+                        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+                        transform: translateY(6%);
+                    }
+        
+                    #blockchain{
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                }
+                .curso3 {
+                    opacity: 0.7;
+                    font-size: larger;
+                    min-width: 300px;
+                    margin-top: 20px;
+                    &:hover {
+                        opacity: 1;
+                        background-color: aliceblue;
+                        cursor: pointer;
+                        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+                        transform: translateY(6%);
+                    }
+                    #marketing{
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                }
+            }
+        };
+    }
+        
+    p   {
+        margin-block: 2em;
+        margin-inline: 1em;
+        transition: 2s;
+        
+    }
+
+    h1 {
+        margin: 0 auto;
+        min-width: 250px;
+        text-align:center;
+    }
+   
+    
+    
+    .gradiente{
+        
+        &:hover {
+            background-image: linear-gradient(to right, $color-ib , $color-ib-light);
+        }
+        
+    }
+}

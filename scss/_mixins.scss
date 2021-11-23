@@ -1,0 +1,8 @@
+@import './variables';
+
+@mixin centrarContenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

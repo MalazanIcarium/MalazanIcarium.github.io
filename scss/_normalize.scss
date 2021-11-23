@@ -1,0 +1,60 @@
+/* --- 
+  NORMALIZACIÓN DE ELEMENTOS
+--- */
+
+// *{
+//   // top: 0px;
+//   // margin: 0px;
+//   // left: 0px;
+//   // margin-right: 0px;
+// }
+
+html {
+  line-height: 1.15; /* 1 */
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+  
+body {
+  margin: 0;
+  font-size: 16px;
+  background-image: url("/media/scattered-forcefields.svg");
+  background-attachment: fixed;
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+main {
+  display: block;
+}
+  
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+  
+a {
+  background-color: transparent;
+}
+  
+b,
+strong {
+  font-weight: bolder;
+}
+  
+small {
+  font-size: 80%;
+}
+
+img {
+  border-style: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+/* --- 
+  FIN NORMALIZACIÓN DE ELEMENTOS
+--- */
